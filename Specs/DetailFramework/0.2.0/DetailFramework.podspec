@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   #s.preserve_paths = 'DetailFramework.framework/**/*'
   #s.library  = 'DetailFramework'
   s.vendored_frameworks = 'DetailFramework.framework'
-  #s.resource = "Resources/HockeySDK.bundle"
+  s.resource = 'DetailFramework.framework'
   s.frameworks = 'UIKit'
 end
