@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author             = { "Eli Tsai" => "baicai@in66.com" }
   s.ios.deployment_target = "6.0"
   s.source       = { :git => "https://github.com/EddieTsai/Detail.git", :tag => "0.1.0" }
-  spec.vendored_frameworks = 'DetailFramework.framework'
-  #spec.resource = "Resources/HockeySDK.bundle"
-  spec.frameworks = 'UIKit'
+  s.vendored_frameworks = 'DetailFramework.framework'
+  #s.resource = "Resources/HockeySDK.bundle"
+  s.frameworks = 'UIKit'
 end
